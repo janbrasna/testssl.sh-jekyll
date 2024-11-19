@@ -7,48 +7,264 @@ layout: home
 
 ![testssl icon](testssl-icon.png)
 
-# Testing TLS/SSL encryption
+Testing TLS/SSL encryption
+==========================
 
   
 
-## testssl.sh
+testssl.sh
+----------
 
 is a [free](LICENSE.txt "GPL v2") command line tool which checks a server's service on any port for the support of TLS/SSL ciphers, protocols as well as recent cryptographic flaws and more.  
   
 
-| [Name](?sort=name&order=desc) | [Last Modified](?sort=modtime) | [Size](?sort=size) | [Type](?sort=file_type) |
-| --- | --- | --- | --- |
-| [2.6](2.6)/ | 2018-Nov-15 22:02:23 | \-- | Directory |
-| [2.8](2.8)/ | 2018-Nov-15 22:46:12 | \-- | Directory |
-| [2.9.5](2.9.5)/ | 2020-Jan-23 22:04:09 | \-- | Directory |
-| [bin](bin)/ | 2022-Nov-22 16:48:47 | \-- | Directory |
-| [bleichenbacher](bleichenbacher)/ | 2018-Feb-23 18:00:33 | \-- | Directory |
-| [doc](doc)/ | 2022-Nov-22 16:50:07 | \-- | Directory |
-| [etc](etc)/ | 2022-Nov-22 16:49:13 | \-- | Directory |
-| [openssl-1.0.2i-chacha.pm.ipv6.contributed](openssl-1.0.2i-chacha.pm.ipv6.contributed)/ | 2020-Sep-17 09:55:59 | \-- | Directory |
-| [openssl-1.0.2k-bad](openssl-1.0.2k-bad)/ | 2022-Sep-01 19:39:34 | \-- | Directory |
-| [utils](utils)/ | 2022-Nov-22 16:49:53 | \-- | Directory |
-|     |     |     |     |
-| [CHANGELOG.md](CHANGELOG.md) | 2022-Sep-29 08:40:32 | 17.20KB | MD File |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 2022-Sep-29 08:40:32 | 728.00B | MD File |
-| [CREDITS.md](CREDITS.md) | 2022-Sep-29 08:40:32 | 3.90KB | MD File |
-| [Dockerfile](Dockerfile) | 2022-Sep-29 08:40:32 | 585.00B | Unknown File |
-| [Dockerfile.git](Dockerfile.git) | 2022-Sep-29 08:40:32 | 681.00B | GIT File |
-| [Dockerfile.md](Dockerfile.md) | 2022-Sep-29 08:40:32 | 1.53KB | MD File |
-| [LICENSE.txt](LICENSE.txt) | 2014-May-03 11:04:22 | 17.59KB | TXT Type Document |
-| [Readme.md](Readme.md) | 2022-Nov-10 15:42:27 | 6.25KB | MD File |
-| [openssl-iana.mapping.html](openssl-iana.mapping.html) | 2024-Aug-26 15:30:31 | 60.80KB | HTML File |
-| [testssl.sh](testssl.sh) | 2022-Sep-29 08:40:32 | 997.07KB | SH File |
-| [testssl.sh-3.0.6.tar.gz](testssl.sh-3.0.6.tar.gz) | 2021-Oct-03 19:07:15 | 8.82MB | GZ Compressed Archive |
-| [testssl.sh-3.0.6.tar.gz.asc](testssl.sh-3.0.6.tar.gz.asc) | 2021-Oct-03 19:07:15 | 488.00B | ASC File |
-| [testssl.sh-3.0.7.tar.gz](testssl.sh-3.0.7.tar.gz) | 2022-Feb-19 14:59:59 | 8.79MB | GZ Compressed Archive |
-| [testssl.sh-3.0.7.tar.gz.asc](testssl.sh-3.0.7.tar.gz.asc) | 2022-Feb-19 14:59:59 | 488.00B | ASC File |
-| [testssl.sh-3.0.8.tar.gz](testssl.sh-3.0.8.tar.gz) | 2022-Sep-29 08:46:37 | 17.59MB | GZ Compressed Archive |
-| [testssl.sh-3.0.8.tar.gz.asc](testssl.sh-3.0.8.tar.gz.asc) | 2022-Sep-29 08:46:32 | 488.00B | ASC File |
-| [testssl.sh-3.0.9.tar.gz](testssl.sh-3.0.9.tar.gz) | 2024-Jun-13 19:02:46 | 8.95MB | GZ Compressed Archive |
-| [testssl.sh-3.0.9.tar.gz.asc](testssl.sh-3.0.9.tar.gz.asc) | 2024-Jun-13 19:04:07 | 488.00B | ASC File |
-| [testssl.sh.asc](testssl.sh.asc) | 2021-Oct-03 19:07:15 | 488.00B | ASC File |
-| [testssl\_german\_owasp\_day.pdf](testssl_german_owasp_day.pdf) | 2018-Nov-18 13:53:38 | 1.11MB | PDF Type Document |
+[Name](?sort=name&order=desc)
+
+[Last Modified](?sort=modtime)
+
+[Size](?sort=size)
+
+[Type](?sort=file_type)
+
+[2.6](2.6)/
+
+2018-Nov-15 22:02:23
+
+\--
+
+Directory
+
+[2.8](2.8)/
+
+2018-Nov-15 22:46:12
+
+\--
+
+Directory
+
+[2.9.5](2.9.5)/
+
+2020-Jan-23 22:04:09
+
+\--
+
+Directory
+
+[bin](bin)/
+
+2022-Nov-22 16:48:47
+
+\--
+
+Directory
+
+[bleichenbacher](bleichenbacher)/
+
+2018-Feb-23 18:00:33
+
+\--
+
+Directory
+
+[doc](doc)/
+
+2022-Nov-22 16:50:07
+
+\--
+
+Directory
+
+[etc](etc)/
+
+2022-Nov-22 16:49:13
+
+\--
+
+Directory
+
+[openssl-1.0.2i-chacha.pm.ipv6.contributed](openssl-1.0.2i-chacha.pm.ipv6.contributed)/
+
+2020-Sep-17 09:55:59
+
+\--
+
+Directory
+
+[openssl-1.0.2k-bad](openssl-1.0.2k-bad)/
+
+2022-Sep-01 19:39:34
+
+\--
+
+Directory
+
+[utils](utils)/
+
+2022-Nov-22 16:49:53
+
+\--
+
+Directory
+
+[CHANGELOG.md](CHANGELOG.md)
+
+2022-Sep-29 08:40:32
+
+17.20KB
+
+MD File
+
+[CONTRIBUTING.md](CONTRIBUTING.md)
+
+2022-Sep-29 08:40:32
+
+728.00B
+
+MD File
+
+[CREDITS.md](CREDITS.md)
+
+2022-Sep-29 08:40:32
+
+3.90KB
+
+MD File
+
+[Dockerfile](Dockerfile)
+
+2022-Sep-29 08:40:32
+
+585.00B
+
+Unknown File
+
+[Dockerfile.git](Dockerfile.git)
+
+2022-Sep-29 08:40:32
+
+681.00B
+
+GIT File
+
+[Dockerfile.md](Dockerfile.md)
+
+2022-Sep-29 08:40:32
+
+1.53KB
+
+MD File
+
+[LICENSE.txt](LICENSE.txt)
+
+2014-May-03 11:04:22
+
+17.59KB
+
+TXT Type Document
+
+[Readme.md](Readme.md)
+
+2022-Nov-10 15:42:27
+
+6.25KB
+
+MD File
+
+[openssl-iana.mapping.html](openssl-iana.mapping.html)
+
+2024-Aug-26 15:30:31
+
+60.80KB
+
+HTML File
+
+[testssl.sh](testssl.sh)
+
+2022-Sep-29 08:40:32
+
+997.07KB
+
+SH File
+
+[testssl.sh-3.0.6.tar.gz](testssl.sh-3.0.6.tar.gz)
+
+2021-Oct-03 19:07:15
+
+8.82MB
+
+GZ Compressed Archive
+
+[testssl.sh-3.0.6.tar.gz.asc](testssl.sh-3.0.6.tar.gz.asc)
+
+2021-Oct-03 19:07:15
+
+488.00B
+
+ASC File
+
+[testssl.sh-3.0.7.tar.gz](testssl.sh-3.0.7.tar.gz)
+
+2022-Feb-19 14:59:59
+
+8.79MB
+
+GZ Compressed Archive
+
+[testssl.sh-3.0.7.tar.gz.asc](testssl.sh-3.0.7.tar.gz.asc)
+
+2022-Feb-19 14:59:59
+
+488.00B
+
+ASC File
+
+[testssl.sh-3.0.8.tar.gz](testssl.sh-3.0.8.tar.gz)
+
+2022-Sep-29 08:46:37
+
+17.59MB
+
+GZ Compressed Archive
+
+[testssl.sh-3.0.8.tar.gz.asc](testssl.sh-3.0.8.tar.gz.asc)
+
+2022-Sep-29 08:46:32
+
+488.00B
+
+ASC File
+
+[testssl.sh-3.0.9.tar.gz](testssl.sh-3.0.9.tar.gz)
+
+2024-Jun-13 19:02:46
+
+8.95MB
+
+GZ Compressed Archive
+
+[testssl.sh-3.0.9.tar.gz.asc](testssl.sh-3.0.9.tar.gz.asc)
+
+2024-Jun-13 19:04:07
+
+488.00B
+
+ASC File
+
+[testssl.sh.asc](testssl.sh.asc)
+
+2021-Oct-03 19:07:15
+
+488.00B
+
+ASC File
+
+[testssl\_german\_owasp\_day.pdf](testssl_german_owasp_day.pdf)
+
+2018-Nov-18 13:53:38
+
+1.11MB
+
+PDF Type Document
 
   
 document.writeln("<img src='testssl-standard50.jpg' alt='Standard call: testssl.sh &lt;hostname&gt;' id='img1' style='float:right' onmouseover='mouseOverImage1()' onmouseout='mouseOutImage1()'>"); function mouseOverImage1() { document.getElementById("img1").src = "testssl-standard.jpg"; } function mouseOutImage1() { document.getElementById("img1").src = "testssl-standard50.jpg"; }
@@ -526,12 +742,12 @@ Bugs (and fixes) as well as other PRs can by filed at the git repo or send me a 
 I post all significant updates on [Mastodon](https://infosec.exchange/@testssl). Twitter ([drwetter](http://twitter.com/drwetter "@drwetter")) is deprecated.    
   
 
-- - -
+* * *
 
 Services:  If you need a scanning service or consulting [get in touch with me.](https://drwetter.eu/kontakt "contact form with OpenPGP encryption on my business web site (sorry, German. Fields should be self-explanatory)")
 
   
 
-- - -
+* * *
 
 [Imprint](http://drwetter.eu/impressum)
