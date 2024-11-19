@@ -2,7 +2,7 @@ title: testssl.sh
 description: CLI tool to check TLS/SSL ciphers, protocols, their cryptographic flaws and more.
 theme: just-the-docs
 
-url: https://janbrasna.github.io/
+url: https://janbrasna.github.io
 
 #plugins:
 #  - jekyll-default-layout
