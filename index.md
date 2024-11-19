@@ -1,5 +1,5 @@
 ---
-title: Home
+title: /bin/bash based SSL/TLS tester
 layout: home
 ---
 
