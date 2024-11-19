@@ -4,8 +4,8 @@ theme: just-the-docs
 
 url: https://janbrasna.github.io/
 
-plugins:
-  - jekyll-default-layout
+#plugins:
+#  - jekyll-default-layout
 
 aux_links:
   Edit on GitHub: https://github.com/janbrasna/testssl.sh-jekyll
