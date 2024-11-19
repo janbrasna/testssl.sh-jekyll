@@ -1,8 +1,11 @@
-title: Title
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: testssl.sh
+description: CLI tool to check TLS/SSL ciphers, protocols, their cryptographic flaws and more.
 theme: just-the-docs
 
-url: https://janbrasna.github.io/testssl.sh-jekyll
+url: https://janbrasna.github.io/
+
+plugins:
+  - jekyll-default-layout
 
 aux_links:
-  Template Repository: https://github.com/janbrasna/testssl.sh-jekyll
+  Edit on GitHub: https://github.com/janbrasna/testssl.sh-jekyll
